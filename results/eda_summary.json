@@ -1,0 +1,20 @@
+{
+  "n": 67,
+  "mean_pre_vl_cm": 2.4455223880597012,
+  "mean_post_vl_cm": 2.8623880597014923,
+  "mean_delta_vl_cm": 0.41686567164179106,
+  "sd_delta_vl_cm": 0.2457037447157554,
+  "median_delta_vl_cm": 0.40000000000000036,
+  "min_delta_vl_cm": -0.28000000000000025,
+  "max_delta_vl_cm": 1.2,
+  "positive_observed_change_n": 65,
+  "negative_observed_change_n": 2,
+  "zero_observed_change_n": 0,
+  "mean_delta_vl_cm_t95_interval": [
+    0.35693381922505035,
+    0.47679752405853176
+  ],
+  "mean_delta_lean_mass_kg": 2.6023880597014917,
+  "mean_pre_protein_g_day": 87.52313432835821,
+  "mean_pre_energy_kcal_day": 1920.0
+}

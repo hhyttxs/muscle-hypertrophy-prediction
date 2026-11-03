@@ -1,0 +1,50 @@
+{
+  "source_doi": "10.1371/journal.pone.0195203",
+  "source_url": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0195203.s003&type=supplementary",
+  "license": "CC BY 4.0 (original authors)",
+  "retrieval_date": "2026-10-11",
+  "sha256": "efe5f3b5fdfea6a9125fd8ccf73f151af1c91b2ec93d14b05c84d26ad76468ec",
+  "bytes": 130655,
+  "sheet": "Cluster from VL thickness",
+  "source_dimensions": "A1:DD96",
+  "source_header_columns": 108,
+  "participant_n": 67,
+  "selection_rule": "subject fullmatches MPS[0-9]+",
+  "removed_nonparticipant_nonempty_rows": 25,
+  "excluded_row_types": [
+    "Mean",
+    "StdDev",
+    "Count",
+    "t-test summaries",
+    "legend"
+  ],
+  "cleaning": [
+    "retain original Excel row",
+    "sort by subject",
+    "preserve missing as empty CSV cells",
+    "no imputation",
+    "no outlier deletion",
+    "no sample-wide transformations"
+  ],
+  "main_field_complete_n": 67,
+  "squat_missing_ids": [
+    "MPS004",
+    "MPS028",
+    "MPS042"
+  ],
+  "supplement_code_counts": {
+    "4": 13,
+    "5": 15,
+    "6": 12,
+    "7": 14,
+    "9": 13
+  },
+  "outcome_delta_max_difference_from_author_column": 4.440892098500626e-16,
+  "runtime": {
+    "python": "3.12.14",
+    "pandas": "2.2.3",
+    "numpy": "2.3.5",
+    "scipy": "1.17.0",
+    "matplotlib": "3.10.8"
+  }
+}

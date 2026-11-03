@@ -1,0 +1,16 @@
+{
+  "participant_n": 67,
+  "outer_train_test_disjoint_all_100_splits": true,
+  "inner_splits_contained_in_outer_training_all_500_splits": true,
+  "one_oof_prediction_per_participant_per_repeat_per_model": true,
+  "exported_repeat_metrics_recomputed_independently": true,
+  "baseline_coefficient_matches_scipy_linregress": true,
+  "first_outer_ridge_grid_scores_and_predictions_match_closed_form": true,
+  "first_outer_independent_ridge_mse": {
+    "0.1": 0.06373510372886297,
+    "1.0": 0.06314033653169035,
+    "10.0": 0.06264975680495766,
+    "100.0": 0.08281732703805449
+  },
+  "first_outer_selected_alpha": 10.0
+}

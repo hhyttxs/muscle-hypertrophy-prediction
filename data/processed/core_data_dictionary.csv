@@ -1,0 +1,27 @@
+variable,original,unit,timing,role,nonmissing_n
+source_excel_row,Excel row number,row,source metadata,audit trail,67
+participant_id,subject,identifier,constant,join key,67
+supplement_code,protein_group,category,assigned group,sensitivity adjustment; labels unresolved,67
+age_years,Age,years,PRE,sensitivity predictor,67
+pre_vl_cm,T1_VL,cm,PRE,primary baseline predictor,67
+post_vl_cm,T39_VL,cm,POST,primary outcome,67
+pre_lean_mass_kg,T1_LBM_kg,kg,PRE,primary baseline predictor,67
+post_lean_mass_kg,T39_LBM,kg,POST,secondary outcome,67
+pre_fat_mass_kg,T1_FatMass_kg,kg,PRE,primary baseline predictor,67
+post_fat_mass_kg,T39_FatMass,kg,POST,descriptive only,67
+pre_squat_3rm_kg,T1_3RMsquat_kg,kg,PRE,secondary predictor; 3 missing,64
+post_squat_3rm_kg,T39_3RMsquat_kg,kg,POST,secondary outcome; 3 missing,64
+pre_energy_kcal_day,T1_kcal_d,kcal/day,PRE 4-day food log,primary baseline predictor,67
+post_energy_kcal_day,T39_kcal_d,kcal/day,POST 4-day food log,process association only,67
+pre_protein_g_day,T1_PRO_d,g/day,PRE 4-day food log,primary baseline predictor,67
+post_protein_g_day,T39_PRO_d,g/day,POST 4-day food log,process association only; supplement accounting unresolved,67
+pre_carbohydrate_g_day,T1_CHO_d,g/day,PRE 4-day food log,descriptive only,67
+post_carbohydrate_g_day,T39_CHO_d,g/day,POST 4-day food log,descriptive only,67
+pre_fat_g_day,T1_FAT_d,g/day,PRE 4-day food log,descriptive only,67
+post_fat_g_day,T39_FAT_d,g/day,POST 4-day food log,descriptive only,67
+training_volume_source_units,Volume_Lifted,source units; physical unit not independently verified,whole 12-week intervention,process association only,67
+delta_vl_cm,post_vl_cm - pre_vl_cm,cm,POST minus PRE,descriptive change; never a predictor,67
+delta_vl_pct,100 * delta_vl_cm / pre_vl_cm,%,POST minus PRE,secondary descriptive change; baseline denominator coupling,67
+delta_lean_mass_kg,post_lean_mass_kg - pre_lean_mass_kg,kg,POST minus PRE,secondary descriptive outcome,67
+delta_fat_mass_kg,post_fat_mass_kg - pre_fat_mass_kg,kg,POST minus PRE,descriptive outcome,67
+delta_squat_3rm_kg,post_squat_3rm_kg - pre_squat_3rm_kg,kg,POST minus PRE,secondary descriptive outcome; 3 missing,64

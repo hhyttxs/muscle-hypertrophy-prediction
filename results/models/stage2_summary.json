@@ -1,0 +1,45 @@
+{
+  "analysis_specification_date": "2026-10-13",
+  "n": 67,
+  "cv_repeats": 20,
+  "outer_folds": 5,
+  "seed": 20261011,
+  "baseline_mean_mae_cm": 0.1860867014971304,
+  "extended_mean_mae_cm": 0.1948827361330371,
+  "ridge_mean_mae_cm": 0.1966044729749788,
+  "extended_minus_baseline_mean_mae_cm": 0.008796034635906697,
+  "ridge_minus_baseline_mean_mae_cm": 0.010517771477848381,
+  "extended_improved_mae_repeats": 1,
+  "ridge_improved_mae_repeats": 0,
+  "primary_added_block_hc3_wald_p_approx": 0.589132733258455,
+  "max_primary_vif": 2.434214293068272,
+  "cook_flagged_ids": [
+    "MPS015",
+    "MPS023",
+    "MPS028",
+    "MPS060",
+    "MPS068"
+  ],
+  "leverage_flagged_ids": [
+    "MPS006",
+    "MPS010",
+    "MPS040",
+    "MPS041",
+    "MPS091"
+  ],
+  "ridge_alpha_selection_counts": {
+    "0.1": 4,
+    "1.0": 35,
+    "10.0": 61
+  },
+  "no_features_selected_after_results": true,
+  "no_participants_removed": true,
+  "hc3_verified_by_independent_delete_one_fits": true,
+  "runtime": {
+    "python": "3.12.14",
+    "sklearn": "1.8.0",
+    "numpy": "2.3.5",
+    "scipy": "1.17.0"
+  },
+  "core_csv_sha256": "72033c47ad7c7cd820833c7363d3369c25de5d629947c19d380ea4246f829213"
+}
